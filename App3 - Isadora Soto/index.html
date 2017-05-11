@@ -1,0 +1,331 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta charset="utf-8">
+<title>jQuery Mobile Web App</title>
+<link href="jquery.mobile-1.0.min.css" rel="stylesheet" type="text/css"/>
+<script src="jquery-1.6.4.min.js" type="text/javascript"></script>
+<script src="jquery.mobile-1.0.min.js" type="text/javascript"></script>
+</head> 
+<body style="text-align:justify">
+<div data-role="page" id="Home" data-theme="e">
+  |
+  <div data-role="header">
+    <h1>JQuery Mobile </h1>
+  </div>
+  <div><a href="https://jquery.com/"><img src="jquery-logo.png" width="500" height="200" alt="" ></a>
+  
+  </div>
+  
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true">
+      <li><a href="#PhoneGap">PhoneGap</a><a href="#">Default</a></li>
+      <li><a href="#jqueryMobile">JQuery Mobile</a><a href="#">Default</a></li>
+      <li><a href="#Formulario">Regístrate</a><a href="#">Default</a></li>
+      <li><a href="#Contacto">Contacto</a><a href="#">Default</a></li>
+    </ul>
+
+  </div>
+  <div data-role="footer" data-position="fixed">
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#" data-rel="back" data-icon="arrow-l">Atrás</a></li>
+      <li><a href="#Home" data-role="button" data-icon="home">Inicio</a></li>
+      <li><a href="#Info" data-role="button" data-icon="info">Info</a></li>
+      <li><a href="#" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+    </ul>
+ 	</div>
+ 
+  </div>
+</div>
+
+
+<div data-role="dialog" id="Info" data-theme="e">
+  <div data-role="header">
+    <h1>Información</h1>
+  </div>
+  <div data-role="content">
+  		<p> Isadora Soto Ríos <br>
+        	11 de Mayo de 2017
+            </p>
+<a href="#" data-rel="back" data-icon="arrow-l"> 
+	<input type="button" value="Cerrar">  
+</a>
+   </div>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="PhoneGap" data-theme="e">
+  <div data-role="header">
+    <h1>PhoneGap</h1>
+  </div>
+  <div data-role="content"><img src="PhoneGap-technology.png" style="width:110%; margin:0 auto; ">
+    <div data-role="collapsible-set">
+      <div data-role="collapsible">
+        <h3>¿Que es PhoneGap?</h3>
+        <p>
+PhoneGap es un framework para el desarrollo de aplicaciones móviles producido por Nitobi, y comprado posteriormente por Adobe Systems.3 4 Principalmente, PhoneGap permite a los programadores desarrollar aplicaciones para dispositivos móviles utilizando herramientas genéricas tales como JavaScript, HTML5 y CSS3. Las aplicaciones resultantes son híbridas, es decir que no son realmente aplicaciones nativas al dispositivo (ya que el renderizado se realiza mediante vistas web y no con interfaces gráficas específicas de cada sistema), pero no se tratan tampoco de aplicaciones web (teniendo en cuenta que son aplicaciones que son empaquetadas para poder ser desplegadas en el dispositivo incluso trabajando con el API del sistema nativo). <br><br<br</p>
+      </div>
+      
+      
+      
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Características</h3>
+        <p>
+        <b>1. Gratis </b>
+<br><br>
+Cuando algo es gratis la gente tiende a asociarlo a mala calidad.En el mundo de la informática en general y en el del desarrollo en particular hay frameworks como Foundation 3 o PhoneGap que son gratis y de gran calidad.
+<br><br>
+<b>2. Multiplataforma</b>
+<br><br>
+iOS, Android, BlackBerry,….. tantas plataformas y la necesidad de desarrollar un proyecto para cada una, hacen del desarrollo una labor complicada. PhoneGap es multiplataforma, compatible con iOS, Android, BlackBerry OS, Windows Phone 7, WebOS (Palm), Symbian o Bada.
+<br><br>
+<b>3. Moderno</b>
+<br><br>
+Uno de los puntos fuertes de PhoneGap es la creación de las aplicaciones utilizando HTML, CSS3 y JavaScript potenciado por las últimas características que proporciona HTML5. Ésto también tiene un pequeño punto negro, las aplicaciones que se construyen utilizando este framework dependen del navegador y todavía algunos navegadores (cada vez menos) no soportan todas las características del futuro estándar HTML5.
+<br><br>
+<b>4. Compartir</b>
+<br><br>
+Una vez finalizado tu proyecto y empaquetado puedes compartirlo fácilmente subiéndolo a las diferentes stores disponibles.
+<br><br>
+<b>5. Uno para todos</b>
+<br><br>
+Un código fuente para todos. Se podría traducir de esta forma otra de las razones para utilizar PhoneGap. Aunque no es del todo cierto, ya que necesitan algunas pequeñas modificaciones. Si con un solo código tú aplicación es multiplataforma es ya una razón más que importante para probarlo.
+<br><br>
+<b>6. Rápido </b>
+<br><br>
+Si lo que buscas es hacer una aplicación sencilla y lo más rápidamente posible para ser el primero en hacerla, PhoneGap puede ser tu herramienta. En poco tiempo, si no necesitas muchos recursos (tu aplicación es sencilla), PhoneGap te permite desarrollar rápidamente con el plus que te da el hecho de que automáticamente tu desarrollo es multiplataforma. Llegar a más dispositivos, más rápido.
+<br><br>
+<b>7. Cómodo</b>
+<br><br>
+Existen multitud de formas de utilizar PhoneGap para el desarrollo de aplicaciones. Ha sido integrado en las últimas versiones de Dreamweaver. Está disponible en formato de plugin para diferentes programas, como el caso de Eclipse o como template para Xcode en Mac. Claro que también existe la opción del SDK. Un gran abanico que hace más cómodo a éste framework.
+<br><br>
+<b>8. PhoneGap Build </b>
+<br><br>
+Es el complemento perfecto para PhoneGap. Es un poderoso compilador en la nube que te permite después de unos sencillos pasos (registro) acceder a todas las herramientas y todo el soporte necesario para compilar nuestras aplicaciones web en las plataformas móviles con las que trabaja PhoneGap.
+<br><br>
+Al registrarte tienes que darte de alta con un tipo de perfil. Hay de pago, pero también hay alguno gratuito. Echa un vistazo a como es PhoneGap y PhoneGap build en 5 minutos.
+<br><br>   
+        
+        
+        
+        
+        </p>
+      </div>
+      
+      
+      
+      <div data-role="collapsible" data-collapsed="true">
+        <h3>Diseño</h3>
+        <p> Este framework permite a los desarrolladores web centrarse en el desarrollo de apps para teléfonos inteligentes de distintas plataformas, teniendo como base un código genérico con herramientas tales como JavaScript, HTML, CSS, y creando una interfaz de funciones foráneas para embeber una vista Web en el dispositivo móvil.</p>
+      </div>
+      
+      
+    </div>
+  </div>
+  <div data-role="footer" data-position="fixed">
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#" data-rel="back" data-icon="arrow-l">Atrás</a></li>
+      <li><a href="#Home" data-role="button" data-icon="home">Inicio</a></li>
+      <li><a href="#Info" data-role="button" data-icon="info">Info</a></li>
+      <li><a href="#" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+    </ul>
+ 	</div>
+ 
+  </div>
+</div>
+<div data-role="page" id="jqueryMobile" data-theme="e">
+  <div data-role="header">
+    <h1>JQuery Mobile</h1>
+  </div>
+  <div data-role="content">
+  	<img src="jquery_mobile_maps.jpg">
+    
+  	
+  	  <div data-role="collapsible">
+  	    <h3>¿Qué es JQuery Mobile?</h3>
+  	    <p>JQuery Mobile es un framework lleva el mantra "escribe menos, haz más" al siguiente nivel: En lugar de escribir aplicaciones únicas para cada dispositivo móvil o sistema operativo, el marco móvil de jQuery te permite diseñar un único sitio web o aplicación de alta calidad que Trabajar en todas las plataformas populares de teléfonos inteligentes, tablets y computadoras de escritorio..</p>
+      </div>
+  	  <div data-role="collapsible" >
+  	    <h3>Características</h3>
+  	    <p>
+        
+  <b> <li> Themes personalizados:</li> </b><br>El framework permite el uso de themes ya creados y da la posibilidad de crear nuevos themes y trabajar con ellos.<br><br><br>
+   <b><li> Tamaño reducido:</li></b> <br>Toda la librería comprimida pesa menos de 12K.<br><br><br>
+  <b> <li> Facilidad de uso:</li><br></b> Destaca la facilidad para el desarrollo de interfaces de usuario de dispositivos móviles.<br><br><br>
+  <b> <li> Múltiples plataformas:</li></b> IOS, Android, Blackberry, Palm WebOS, Symbian, Windows Mobile, etc.<br><br><br>
+   <b><li> Soporte HTML5:</li><br></b> Como su nombre indica, soporta las nuevas etiquetas HTML5.
+
+        
+        
+        
+        </p>
+      </div>
+      
+      
+  	  <div data-role="collapsible">
+  	    <h3>Compatible con el mayor número de plataformas</h3>
+  	    <p>Los creadores del framework comentan entre sus características que se han esforzado para cubrir el mayor número de plataformas de dispositivos móviles posible. Dicen que el target que han buscado es mayor que el del resto de frameworks disponibles en el mercado.</p>
+        <br>
+        <img src="compatibles-jquerymobile.png">
+        <br>
+        
+      <p>  No obstante, cabe señalar existen diversos grados de compatibilidad para cada sistema, o mejor dicho, para cada navegador dentro de cada familia de dispositivos. En la documentación del framework, en la sección de Supported Platforms veremos que el grado de compatibilidad está dividido en tres niveles distintos, desde Grado-A (donde están la mayoría navegadores para iOS y Android, así como BlackBerry, Palm WebOS, los navegadores de ordenadores de escritorio, etc.) a Grado-B (donde encontramos a Symbian, Opera Mini 5.0 y 6.0 para iOS o Balckberry 5.0) o Grado-C (con el resto de los smartphones, entre los que se encuentra Windows Mobile o Blackberry 4).</p>
+        
+        
+      </div>
+    
+    
+    
+  
+  
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="footer" data-position="fixed">
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atrás</a></li>
+      <li><a href="#Home" data-role="button" data-icon="home">Inicio</a></li>
+      <li><a href="#Info" data-role="button" data-icon="info">Info</a></li>
+      <li><a href="#formulario" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+    </ul>
+ 	</div>
+ 
+  </div>
+  </div>
+</div>
+
+
+<div data-role="page" id="Formulario" data-theme="e">
+ <div data-role="header">
+    <h1>Registro de contacto </h1>
+  </div>
+<div data-role = "content">
+<form action="" method="">
+<label for="name"> Nombre: </label>
+<input type = "text" name = "name" id="name"/><br>
+
+<label for="name"> Apellido: </label>
+<input type = "text" name = "apellido" id="apellido"/><br>
+
+<div data-role="fieldcontain">
+  <label for="slider">Edad:</label>
+  <input type="range" name="slider" id="slider" value="1" min="1" max="100" />
+</div>
+
+<label for="name"> Sexo: </label>
+<input type = "text" name = "sexo" id="sexo"/><br>
+
+<label for="name"> Email: </label>
+<input type = "email" name = "email" id="email"/><br>
+
+<label for="name"> Fecha de nacimiento: </label>
+<input type = "date" name = "date" id="date"/><br>
+<br>
+<input type = "button" name = "enviar" id="envar" value="Enviar"/> <br>
+
+</form>
+
+ </div>
+  <div data-role="footer" data-position="fixed">
+    <div data-role="footer" data-position="fixed">
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atrás</a></li>
+      <li><a href="#Home" data-role="button" data-icon="home">Inicio</a></li>
+      <li><a href="#Info" data-role="button" data-icon="info">Info</a></li>
+      <li><a href="#formulario" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+    </ul>
+ 	</div>
+ 
+  </div>
+  </div>
+</div>
+
+
+
+<div data-role="page" id="Contacto" data-theme="e">
+  <div data-role="header">
+    <h1>Contacto</h1>
+  </div>
+  <div data-role="content">
+    <ul data-role="listview" data-inset="true">
+      <li><a href="#">
+        <h3>Beatriz Adriana Sánchez Hernádez</h3>
+        <p>	Edad: 21<br>
+        		Sexo: Mujer<br>
+                Email: ingebeatriz@gmail.com<br>
+             	Fecha de Nacimiento: 31 de Agosto 1995 <br>           
+        </p>
+        </li>
+      <li><a href="#">
+        <h3>Gabriela Hernádez</h3>
+         <p>	Edad: 21<br>
+        		Sexo: Mujer<br>
+                Email: ingegaby@gmail.com<br>
+             	Fecha de Nacimiento: 31 de Agosto 1995 <br>           
+        </p>
+        
+       
+      </a></li>
+      <li><a href="#">
+        <h3>Omar Añorve</h3>
+        <p>	 Edad: 1000 <br>
+        		Sexo: Hombre <br>
+                Email: ingeomar@gmial.com<br>
+                Fecha de Nacimiento: 1855
+                
+        
+        </p>
+        
+       
+      </a></li>
+      <li><a href="#">
+        <h3>Wilson Soto</h3>
+        <p> Edad:10<br>
+        Sexo: Hombre <br>
+                Email: ingewilson@gmial.com<br>
+                Fecha de Nacimiento: 2006
+        
+        </p>
+       
+       
+      </a></li>
+      <li><a href="#">
+        <h3>Carlos Alvarez </h3>
+        <p> Edad:21<br>
+        Sexo: Hombre <br>
+                Email: ingewilson@gmial.com<br>
+                Fecha de Nacimiento: 3 de Septiembre 1995
+        
+        </p>
+       
+      </a></li>
+    </ul> 
+  
+  </div>
+    <div data-role="footer" data-position="fixed">
+    <div data-role="footer" data-position="fixed">
+  <div data-role="navbar">
+    <ul>
+      <li><a href="#" data-rel="back" data-role="button" data-icon="arrow-l">Atrás</a></li>
+      <li><a href="#Home" data-role="button" data-icon="home">Inicio</a></li>
+      <li><a href="#Info" data-role="button" data-icon="info">Info</a></li>
+      <li><a href="#formulario" data-role="button" data-icon="arrow-r">Siguiente</a></li>
+    </ul>
+ 	</div>
+</div>
+
+
+
+
+
+
+
+
+
+</body>
+</html>

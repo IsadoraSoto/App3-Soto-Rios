@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<widget xmlns = "http://www.w3.org/ns/widgets"
+xmlns:gap = "http://phonegap.com/ns/1.0"
+id = "com.phonegap.app3Soto"
+version = "1.0.0">
+
+<name>App3: JQueryMobile-Isadora</name>
+
+<description>
+Aplicacion que describe el funcionamiento de JQueryMobile y PhoneGap
+</description>
+
+<author href="https://example.com" email="you@example.com">
+Isadora Soto
+</author>
+
+<icon src="android.png" gap:density="ldpi" gap:platform="android" />
+<icon src="android.png" gap:density="mdpi" gap:platform="android" />
+<icon src="android.png" gap:density="hdpi" gap:platform="android" />
+<icon src="android.png" gap:density="xhdpi" gap:platform="android" />
+
+</widget>
